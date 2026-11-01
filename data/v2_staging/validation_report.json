@@ -1,0 +1,82 @@
+{
+  "project": "SpendWise",
+  "validationDate": "2026-11-01T09:23:18.624Z",
+  "validationStatus": "PASSED",
+  "masterData": {
+    "users": 1000,
+    "accounts": 2028,
+    "merchants": 12,
+    "categories": 12
+  },
+  "invalidAccountReferences": 0,
+  "transferPairs": {
+    "totalGroups": 25000,
+    "invalidGroups": 0,
+    "validatedGroups": 25000
+  },
+  "refunds": {
+    "totalRefunds": 25000,
+    "invalidRefunds": 0,
+    "validatedRefunds": 25000
+  },
+  "accountReconciliation": {
+    "totalAccounts": 2028,
+    "invalidAccounts": 0,
+    "mismatchedAccounts": 0,
+    "reconciledAccounts": 2028
+  },
+  "transactions": {
+    "total": 500000,
+    "duplicateOrMissingIds": 0,
+    "invalidReferences": 0,
+    "invalidAmounts": 0,
+    "invalidDates": 0,
+    "invalidTypes": 0,
+    "invalidStatuses": 0
+  },
+  "budgets": {
+    "total": 108000,
+    "duplicateIds": 0,
+    "invalidRecords": 0
+  },
+  "recurringTransactions": {
+    "total": 48000,
+    "invalid": 0,
+    "validated": 48000
+  },
+  "recurringSeries": {
+    "total": 4000,
+    "duplicateIds": 0,
+    "invalidRecords": 0
+  },
+  "anomalyCases": {
+    "total": 5,
+    "invalid": 0
+  },
+  "anomalyTransactionFixtures": {
+    "total": 3,
+    "invalid": 0
+  },
+  "invalidBudgetFixtures": {
+    "total": 1,
+    "invalid": 0
+  },
+  "groundTruth": {
+    "total": 5,
+    "invalid": 0
+  },
+  "skippedPayments": {
+    "total": 0,
+    "invalid": 0
+  },
+  "transactionEvents": {
+    "total": 1000000,
+    "duplicateEventIds": 0,
+    "invalidReferences": 0,
+    "invalidEventTypes": 0,
+    "invalidDates": 0,
+    "transactionsWithInvalidEventCount": 0
+  },
+  "totalErrors": 0,
+  "errors": []
+}

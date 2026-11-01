@@ -1,0 +1,6 @@
+{
+  "seed": 20261022,
+  "transactionCount": 500000,
+  "labelledAnomalies": [],
+  "note": "Baseline dataset. Labelled edge cases will be added separately."
+}

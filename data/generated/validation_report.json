@@ -1,0 +1,33 @@
+{
+  "project": "SpendWise",
+  "validationDate": "2026-10-31T11:41:41.398Z",
+  "validationStatus": "PASSED",
+  "masterData": {
+    "users": 1000,
+    "accounts": 2028,
+    "merchants": 12,
+    "categories": 12
+  },
+  "invalidAccountReferences": 0,
+  "transactions": {
+    "total": 500000,
+    "duplicateOrMissingIds": 0,
+    "invalidReferences": 0,
+    "invalidAmounts": 0,
+    "invalidDates": 0,
+    "invalidTypes": 0,
+    "invalidStatuses": 0
+  },
+  "budgets": {
+    "total": 108000,
+    "duplicateIds": 0,
+    "invalidRecords": 0
+  },
+  "recurringSeries": {
+    "total": 4000,
+    "duplicateIds": 0,
+    "invalidRecords": 0
+  },
+  "totalErrors": 0,
+  "errors": []
+}

@@ -1,0 +1,30 @@
+{
+  "application": "SpendWise",
+  "seed": 20261022,
+  "period": {
+    "start": "2025-11-01",
+    "end": "2026-10-31"
+  },
+  "userCount": 1000,
+  "accountCount": 2028,
+  "merchantCount": 12,
+  "categoryCount": 12,
+  "transactionCount": 500000,
+  "files": {
+    "user_profiles.csv": {
+      "sha256": "edca0ec0f7165a46e472d6a09b658b3b9a22430ef5d27b137b5573959703f4c6"
+    },
+    "accounts.csv": {
+      "sha256": "e493bbeb651c11fb9e552b1f8b227a07bf78bbbaf875a57f7091de9f3670220c"
+    },
+    "categories.csv": {
+      "sha256": "26cd0f6f3be6b5d39f1360d347ab0115e00f7b51dc6f309287e61a85598deb5b"
+    },
+    "merchants.csv": {
+      "sha256": "b5a731fa885bb0676aa6210aae2a3d62ffdaf03ad61efb48968d695ccd21a54c"
+    },
+    "transactions.csv": {
+      "sha256": "6a2121715edfd4aceb6eb5b4ea0ae3f80572a80aa9bc380cdb3436fe15376b96"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+build/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+
+# Generated datasets and backups
+data_backup_20261031/
+
+# Large generated datasets
+data/generated/*.csv
+data/v2_staging/*.csv
+data/v2_staging/exports/
+data/v2_staging/ground_truth/
+
+# Local exports and backups
+data_backup_20261031/
+
+client/src/App.backup.jsx
